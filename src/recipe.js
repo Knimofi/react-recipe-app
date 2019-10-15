@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import style from "./recipe.module.css";
 
 const Recipe = ({ title, calories, img, ingredients }) => {
@@ -12,6 +13,7 @@ const Recipe = ({ title, calories, img, ingredients }) => {
       </ol>
       <p>Calories: {calories}</p>
       <img className={style.image} src={img} alt="" />
+
     </div>
   );
 };
